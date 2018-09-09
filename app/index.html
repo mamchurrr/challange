@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Callange</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="css/selectric.css"/>
+</head>
+<body>
+  <div class="main-wrapper">
+    <div class="wrapper">
+      <div class="header">
+        <div class="header__h1">
+          <h1>Select currency to exchange:</h1>
+        </div>  
+            <select size="1" id="currency">              
+              <option selected value="">Select currency</option>
+              <option value="https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCUSD">USD</option>
+              <option value="https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCEUR">EUR</option>
+              <option value="https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCRUB">RUB</option>
+              <option value="https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCGBP">GBP</option>               
+            </select>
+      </div>
+      
+      <div class="row">
+        <div class="cards-wrap cards-wrap__green">
+          <div class="card-h">
+            <h2>Ethereum</h2>
+            <img src="./img/btc.png" alt="btc">
+          </div>
+          <div class="card-data">
+            <div class="price">
+              <div>Price:</div>
+              <div class="ask">Select currency</div>
+            </div>
+            <div class="changes">
+              <div class="changes__percent">
+                <div>Percent change:</div>
+                <div>
+                  <input id="percent_changerEthereum" type="checkbox" >
+                </div>
+              </div>
+              <div class="changes__price">
+                <div class="changes__items">
+                  <div>Hour change:</div>
+                  <div class="price-hour green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Day change:</div>
+                  <div class="price-day green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Week change:</div>
+                  <div class="price-week green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Month change:</div>
+                  <div class="price-month green">Select currency</div>
+                </div>
+              </div>
+            </div>
+          </div>            
+        </div>
+        <div class="cards-wrap cards-wrap__gray">
+          <div class="card-h">
+            <h2>Litecoin</h2>
+            <img src="./img/btc.png" alt="btc">
+          </div>
+          <div class="card-data">
+            <div class="price">
+              <div>Price:</div>
+              <div class="ask">Select currency</div>
+            </div>
+            <div class="changes">
+              <div class="changes__percent">
+                <div>Percent change:</div>
+                <div>
+                  <input id="percent_changerLitecoin" type="checkbox" >
+                </div>
+              </div>
+              <div class="changes__price">
+                <div class="changes__items">
+                  <div>Hour change:</div>
+                  <div class="price-hour green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Day change:</div>
+                  <div class="price-day green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Week change:</div>
+                  <div class="price-week green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Month change:</div>
+                  <div class="price-month green">Select currency</div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="cards-wrap cards-wrap__orange">
+          <div class="card-h">
+            <h2>Bitcoin</h2>
+            <img src="./img/btc.png" alt="btc">
+          </div>          
+          <div class="card-data">
+            <div class="price">
+              <div>Price:</div>
+              <div class="ask">Select currency</div>
+            </div>
+            <div class="changes">
+              <div class="changes__percent">
+                <div>Percent change:</div>
+                <div>
+                  <input id="percent_changerBitcoin" type="checkbox" >
+                </div>
+              </div>
+              <div class="changes__price">
+                <div class="changes__items">
+                  <div>Hour change:</div>
+                  <div class="price-hour green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Day change:</div>
+                  <div class="price-day green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Week change:</div>
+                  <div class="price-week green">Select currency</div>
+                </div>
+                <div class="changes__items">
+                  <div>Month change:</div>
+                  <div class="price-month green">Select currency</div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div> 
+    </div>  
+  </div>
+
+  <span></span>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.selectric.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "challange",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "s.mamchurrr",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
