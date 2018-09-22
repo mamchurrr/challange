@@ -41,7 +41,7 @@
   font-size: 20px
 
 .changes
-  &__percent
+  &__box
     display: flex
     align-items: center
     justify-content: space-between
@@ -50,7 +50,9 @@
   &__price
     color: #5a5a5a
   &__items
-    @extend .changes__percent
+    @extend .changes__box
+  &__percent
+    display: none
 
 .green
   color: green
@@ -73,7 +75,7 @@ input[type="checkbox"]
 
 input:checked[type="checkbox"] 
   background: #02a9f4
-
+  
 input[type="checkbox"]::before 
   content: ''
   position: absolute
